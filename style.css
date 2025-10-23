@@ -21,7 +21,7 @@ header{
 }
 
 .chamada{
-    background: rgba(64, 81, 66, 0.2));
+    background: rgba(64, 81, 66, 0.2);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -44,12 +44,12 @@ img {
     scroll-behavior: smooth; /* rolagem suave */
 }
 
-.categoria-video: ::-webkit-scrollbar {
+.categoria-video::-webkit-scrollbar {
     height: 8px;
 }
 
-.categoria-video; ::-webkit-scrollbar-thumb {
-    background-color: rgb(21, 189, 35);
+.categoria-video::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 135, 154);
     border-radius: 4px;
 }
 .categoria {

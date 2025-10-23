@@ -8,19 +8,51 @@ h1{
     color: paleturquoise;
     font-size: 40px;
 }
+
 p{
     font-size: 20px;
 }
+
 header{
     border-bottom: solid 3x #198289;
     margin: 2px;
     padding: 10px;
     color: cornflowerblue;
 }
+
 .chamada{
     background: rgba(64, 81, 66, 0.2));
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 0%;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto; /* permite rolagem horizontal */
+    gap: 15px;       /* espaço entre videos */
+    padding: 20px;
+    scroll-behavior: smooth; /* rolagem suave */
+}
+
+.categoria-video: ::-webkit-scrollbar {
+    height: 8px;
+}
+
+.categoria-video; ::-webkit-scrollbar-thumb {
+    background-color: rgb(21, 189, 35);
+    border-radius: 4px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
